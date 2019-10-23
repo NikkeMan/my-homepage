@@ -1,0 +1,21 @@
+body {
+	font-family: "Comic Sans MS";
+	float: left;
+	width: 300px;
+	text-align: center;
+	margin: 0;
+	background-image: linear-gradient(white, lightblue);
+}
+
+h2, h3 {
+	color: blue; 
+	margin: 0px;
+}
+
+span.red {
+	color: red;
+}
+
+span.bold {
+	font-weight: bold;
+}

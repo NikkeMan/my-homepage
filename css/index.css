@@ -1,0 +1,20 @@
+html, body {
+	height: 100%;
+	background-color: lightgreen;
+}
+
+.row {
+	background-color: #f8f9fa;
+}
+
+.footer, .header {
+	color: white;
+	background-color: rgb(100, 100, 100);
+	height: 30px;
+	line-height: 30px;
+}
+
+footer {
+	display: fixed;
+	bottom: 0;
+}

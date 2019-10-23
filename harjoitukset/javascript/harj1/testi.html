@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Javascript harjoitus</title>
+</head>
+<body>
+<p id="myName">-</p>
+<p id="myAddress">-</p>
+<p id="myPostInfo">-</p>
+<p id="myPhone">-</p>
+<button onclick="myFunction();">N‰yt‰ tiedot (innerHTML)</button>
+<button onclick="myOtherFunction();">N‰yt‰ tiedot (write())</button>
+<div id="container">
+	<h2 id="title">Syyskuu</h2>
+	<p id="date" style="display: none;"></p>
+	<button onclick="button1Function();">Btn1</button>
+	<input id="myInput">
+	<br>
+	<button onclick="button2Function();">Btn2</button>
+	<br>
+	<button onclick="button3Function();">Btn3</button>
+	<br>
+	<button onclick="resetFunctionAlt();">Reset</button>
+	<br>
+</div>
+</body>
+
+<script>
+	var firstName = "Niko";
+	var lastName = "Lepp‰noro";
+	var address = "Kotkantie 2";
+	var postNumber = 90600;
+	var townName = "Oulu";
+	var phoneNumber = "012 345 6789";
+	
+	function myFunction() {
+		document.getElementById("myName").innerHTML = "Nimi: " + firstName + " " + lastName;
+		document.getElementById("myAddress").innerHTML = "L‰hiosoite: " + address;
+		document.getElementById("myPostInfo").innerHTML = "Postinumero ja paikkakunta: " + postNumber + " " + townName;
+		document.getElementById("myPhone").innerHTML = "Puhelinnumero: " + phoneNumber;
+	}
+	
+	function myOtherFunction() {
+		document.write("<p>" + "Nimi: " + firstName + " " + lastName + "</p>");
+		document.write("<p>" + "L‰hiosoite: " + address + "</p>");
+		document.write("<p>" + "Postinumero ja paikkakunta: " + postNumber + " " + townName + "</p>");
+		document.write("<p>" + "Puhelinnumero: " + phoneNumber);
+	}
+	
+	function button1Function() {
+	//document.getElementById("title").style.color = "red";
+	
+	document.getElementById("title").style.color = 
+	document.getElementById("myInput").value;
+	}
+
+	function button2Function() {
+		// var date = new Date();
+		// var days = ["sunnuntai", "maanantai", "tiistai", "keskiviikko", "torstai", "perjantai", "lauantai"];
+		// var dateText = "T‰n‰‰n on " + days[date.getDay()] + " " + date.getDate() + "." + (date.getMonth() + 1) 
+		// + "." + date.getFullYear() + ".";
+
+		// var p = document.getElementById("date");
+		// p.style.display = "block";
+		// p.style.color = "yellow";
+		// p.innerHTML = dateText;
+		
+		var p = document.getElementById("date");
+		var text = document.getElementById("myInput").value;
+		p.style.display = "block";
+		p.style.color = text;
+		p.innerHTML = text;
+	}
+
+	function button3Function() {
+		//document.getElementById("container").style.backgroundColor = "green";
+		
+		document.getElementById("container").style.backgroundColor = 
+		document.getElementById("myInput").value;
+	}
+
+	function resetFunction() {
+		document.getElementById("title").style.color = "black";
+		document.getElementById("date").style.display = "none";
+		document.getElementById("date").style.color = "black";
+		document.getElementById("date").innerHTML = "";
+		document.getElementById("container").style.backgroundColor = "white";
+	}
+
+	function resetFunctionAlt() {
+		location.reload();
+	}
+</script>
+</html>

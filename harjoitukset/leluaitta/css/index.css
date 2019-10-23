@@ -1,0 +1,103 @@
+html, body {
+	height: 100%;
+}
+body {
+	margin: 0px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	font-family: "Comic Sans MS";
+}
+footer, header {
+	background-image: linear-gradient(to right, #ffffff, #59B15B, #2E75A3, #E32C2B, #FEFF00, #ffffff);
+	background-color: darkgray;
+	width: 100%;
+}
+footer {
+	position: fixed;
+	bottom: 0px;
+	color: white;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	text-shadow: 2px 1px 5px black;
+}
+header {
+	top: 0px;
+	height: 100px;
+}
+nav {
+	background-image: linear-gradient(to right, #ffffff, #59B15B, #2E75A3, #E32C2B, #FEFF00, #ffffff);
+	background-color: lightgray;
+	width: 100%;
+	min-height: 50px;
+}
+
+section.main {
+	/* margin: 20px 20px 20px 20px; */
+	width: 100%;
+	height: auto;
+}
+
+ul.navlinks {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+ul.navlinks li {
+	float: left;
+}
+
+ul.navlinks li a {
+	display: block;
+	min-width: 150px;
+	height: 50px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	line-height: 50px;
+	text-shadow: 2px 1px 5px black;
+}
+
+img.logo {
+	float: left;
+	max-height: 100px;
+}
+
+.navbutton {
+	transition: 0.3s;
+}
+
+#navlink1 {
+	background-color: green;
+}
+
+#navlink1:hover{
+	background-color: lightgreen;
+}
+
+#navlink2 {
+	background-color: blue;
+}
+
+#navlink2:hover{
+	background-color: lightblue;
+}
+
+#navlink3 {
+	background-color: red;
+}
+
+#navlink3:hover{
+	background-color: rgb(255, 150, 150); /* light red */
+}
+
+#navlink4 {
+	background-color: orange;
+}
+
+#navlink4:hover{
+	background-color: rgb(255, 200, 100); /* light orange */
+}

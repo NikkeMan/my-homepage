@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Harjoitus 9: Forms</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/harj9_forms.css">
+</head>
+<body>
+<div id="container">
+	<form id="newsLetterForm" action="" method="post" onsubmit="return formCheck()">
+		<fieldset>
+			<legend>Tilaa uutislehti</legend>
+			<!-- <span>Sähköposti: </span><input id="inputEmail" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required> -->
+			<span>Sähköposti: </span><input type="email" id="inputEmail" required>
+			<br>
+			<input type="checkbox" id="inputTerms"><span>Hyväksyn <a href="">käyttöehdot</a></span>
+			<br>
+			<input type="submit" value="Tilaa!">
+			<p id="infoText"></p>
+		</fieldset>
+	</form>
+	<form id="newAccountForm" action="" method="post" onsubmit="return formCheck2()">
+		<fieldset>
+			<legend>Luo tili</legend>
+			<input id="firstName" placeholder="*Etunimi"><br>
+			<input id="lastName" placeholder="*Sukunimi"><br>
+			<input id="emailAddress" type="email" placeholder="*Sähköposti"><br>
+			<input id="password" type="password" placeholder="*Salasana"><br>
+			<input id="passwordRepeat" type="password" placeholder="*Salasana uudelleen"><br>
+			<span id="requiredInfo">* Pakollinen kenttä</span><br><br>
+			<span id="passwordInfo">
+				Salasanassa on oltava vähintään 8 merkkiä, iso alkukirjain, 
+				vähintään yksi erikoismerkki (!, ?, +, @, #, % tai &amp;) 
+				eikä se saa sisältää välilyöntejä.
+			</span><br><br>
+			<input id="inputTerms2" type="checkbox">
+			<span>Olen lukenut ja hyväksyn <a href="">käyttöehdot</a> </span> <br>
+			<input type="submit" value="Luo tili">
+			<p id="infoText2"></p>
+		</fieldset>
+	</form>
+</div>
+</body>
+<script type="text/javascript" src="js/harj9_forms.js"></script>
+</html>

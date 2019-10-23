@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Harjoitus 2</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/harj2.css">
+</head>
+<body>
+	<div id="calculator">
+		<h2>Laskin</h2>
+		<p>Syötä kaksi lukua Luku1- ja Luku2-kenttiin
+		ja sen jälkeen paina operaattoripainiketta (+, -, * tai /). 
+		Vastaus tulostuu laskimen alapuolelle. <br><br>
+		Vaihtoehtoisesti voit syöttää laskutoimituksen käyttämällä
+		numero- ja operaattoripainikkeita ja
+		sen jälkeen = -painiketta. C-painike tyhjentää tekstikentät.</p>
+		<span>Luku 1:</span>
+		<input type="number" onchange="clearInputs();" id="input1">
+		<span>Luku 2:</span>
+		<input type="number" onchange="clearInputs();" id="input2">
+		<br>
+		<br>
+		<input id="inputHistory" onchange="clearInputs();" readonly>
+		<br>
+		<br>
+		<div class="calc-buttons">
+			<button class="calc-btn" onclick="numberPress('1');">1</button>
+			<button class="calc-btn" onclick="numberPress('2');">2</button>
+			<button class="calc-btn" onclick="numberPress('3');">3</button>
+			<button class="calc-btn" onclick="plusButton();">+</button><br>
+			<button class="calc-btn" onclick="numberPress('4');">4</button>
+			<button class="calc-btn" onclick="numberPress('5');">5</button>
+			<button class="calc-btn" onclick="numberPress('6');">6</button>
+			<button class="calc-btn" onclick="minusButton();">-</button><br>
+			<button class="calc-btn" onclick="numberPress('7');">7</button>
+			<button class="calc-btn" onclick="numberPress('8');">8</button>
+			<button class="calc-btn" onclick="numberPress('9');">9</button>
+			<button class="calc-btn" onclick="multiplyButton();">*</button><br>
+			<button class="calc-btn" id="clearBtn" onclick="clearInputs();">C</button>
+			<button class="calc-btn" onclick="numberPress('0');">0</button>
+			<button class="calc-btn" onclick="doTheMath();">=</button>
+			<button class="calc-btn" onclick="divideButton();">/</button>
+		</div>
+		<br>
+		<p>Vastaus on: <span id="result"></span></p>
+	</div>
+</body>
+<script src="js/harj2.js"></script>
+</html>

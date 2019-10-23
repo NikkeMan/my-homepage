@@ -1,0 +1,12 @@
+body {
+	float: left;
+	/* width: 300px; */
+	/* text-align: center; */
+	margin: 0;
+	background-image: linear-gradient(white, lightgreen);
+	font-family: "Arial";
+}
+
+h2, h3 {
+	color: green;
+}

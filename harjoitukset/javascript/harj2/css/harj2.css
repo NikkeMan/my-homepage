@@ -1,0 +1,26 @@
+button {
+	width: 100px;
+	height: 20px;
+	margin: 5px 5px 5px 0px;
+}
+
+#calculator {
+	display: inline-block;
+	background-color: lightblue;
+	padding: 5px;
+	width: 400px;
+}
+
+.calc-btn {
+	width: 50px;
+	height: 50px;
+	line-height: 40px;
+	font-size: 40px;
+}
+div, p, h2 {
+	transition: 1s;
+}
+
+#input1, #input2 {
+	width: 100px;
+}

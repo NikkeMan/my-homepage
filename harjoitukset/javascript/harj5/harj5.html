@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hissi</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/harj5.css">
+</head>
+<body>
+	<div id="container">
+		<h2>Hissi</h2>
+		<span>Olet kerroksessa: <span id="currentFloor">1</span></span>
+		<ul id="floorDisplay">
+			<li class="active">1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+			<li>6</li>
+			<li>7</li>
+			<li>8</li>
+		</ul>
+		<div id="buttons">
+			<span>1</span><input type="radio" name="elevator" value="1" onclick="changeFloor(value);"><br>
+			<span>2</span><input type="radio" name="elevator" value="2" onclick="changeFloor(value);"><br>
+			<span>3</span><input type="radio" name="elevator" value="3" onclick="changeFloor(value);"><br>
+			<span>4</span><input type="radio" name="elevator" value="4" onclick="changeFloor(value);"><br>
+			<span>5</span><input type="radio" name="elevator" value="5" onclick="changeFloor(value);"><br>
+			<span>6</span><input type="radio" name="elevator" value="6" onclick="changeFloor(value);"><br>
+			<span>7</span><input type="radio" name="elevator" value="7" onclick="changeFloor(value);"><br>
+			<span>8</span><input type="radio" name="elevator" value="8" onclick="changeFloor(value);"><br>
+		</div>
+		<button id="startButton" onclick="startElevator();">Käynnistä</button>
+		<button onclick="resetElevator();">Reset</button>
+		<p id="infoText"></p>
+	</div>
+</body>
+<script src="js/harj5.js"></script>
+</html>

@@ -1,0 +1,27 @@
+.main {
+}
+
+.main div {
+	padding: 10px;
+}
+
+div#contactInfo {
+	background-color: lightblue;
+	
+}
+
+div#map {
+	background-color: tomato;
+}
+
+div#contactForm {
+	background-color: lightgreen;
+}
+
+textarea#contactFormMessage { 
+	resize: none;
+}
+
+h1, h2, h3, p {
+	margin: 0px;
+}

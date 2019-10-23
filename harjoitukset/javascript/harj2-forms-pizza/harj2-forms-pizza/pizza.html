@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+<title>Forms - Pizza</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/pizza.css">
+</head>
+<html>
+<body>
+    <div>
+        <h1>Pizza Online</h1>
+		<form id="pizzaOrderForm" action="" method="get" onsubmit="return pizzaTime();">
+			<fieldset>
+				<legend>Valitse koko: </legend>
+				<span class="size"><input type="radio" name="size" value="normaali">Normaali</span>
+				<span class="size"><input type="radio" name="size" value="iso">Iso</span>
+				<span class="size"><input type="radio" name="size" value="perhe">Perhe</span>
+				<span class="size"><input type="radio" name="size" value="monster">Monster</span>
+			</fieldset>
+			<fieldset>
+				<legend>Valitse pohja: </legend>
+				<span class="dough"><input type="radio" name="dough" value="normaali">Normaali</span>
+				<span class="dough"><input type="radio" name="dough" value="gluteeniton">Gluteeniton</span>
+				<span class="dough"><input type="radio" name="dough" value="runsaskuituinen">Runsaskuituinen</span>
+			</fieldset>
+			<fieldset>
+				<legend>Valitse täytteet: </legend>
+				<span class="filling"><input type="checkbox" name="filling" value="kinkku">Kinkku</span>
+				<span class="filling"><input type="checkbox" name="filling" value="kebab">Kebab</span>
+				<span class="filling"><input type="checkbox" name="filling" value="salami">Salami</span>
+				<span class="filling"><input type="checkbox" name="filling" value="savuporo">Savuporo</span>
+				<span class="filling"><input type="checkbox" name="filling" value="pariloitu kana">Pariloitu kana</span>
+				<span class="filling"><input type="checkbox" name="filling" value="kananmuna">Kananmuna</span>
+				<span class="filling"><input type="checkbox" name="filling" value="jauheliha">Jauheliha</span>
+				<span class="filling"><input type="checkbox" name="filling" value="pekoni">Pekoni</span>
+				<span class="filling"><input type="checkbox" name="filling" value="tonnikala">Tonnikala</span>
+				<span class="filling"><input type="checkbox" name="filling" value="katkarapu">Katkarapu</span>
+				<span class="filling"><input type="checkbox" name="filling" value="ananas">Ananas</span>
+				<span class="filling"><input type="checkbox" name="filling" value="jalapeno">Jalapeno</span>
+				<span class="filling"><input type="checkbox" name="filling" value="oliivi">Oliivi</span>
+				<span class="filling"><input type="checkbox" name="filling" value="punasipuli">Punasipuli</span>
+				<span class="filling"><input type="checkbox" name="filling" value="herkkusieni">Herkkusieni</span>
+				<span class="filling"><input type="checkbox" name="filling" value="aurajuusto">Aurajuusto</span>
+				<span class="filling"><input type="checkbox" name="filling" value="parmesaanijuusto">Parmesaanijuusto</span>
+				<span class="filling"><input type="checkbox" name="filling" value="mozzarella">Mozzarella</span>
+				<br>
+				<br>
+				<div id="test">
+					<input type="submit" value="Jatka ->">
+				</div>
+				<p id="infoText"></p>
+			</fieldset>
+		</form>
+    </div>
+</body>
+<script src="js/pizza.js"></script>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Leluaitta - Ota yhteyttä</title>
+<link rel = "icon" type = "image/png" href = "img/leluaitta-logo.png">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+<script src="js/index.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<img class="logo" alt="Leluaitta" src="img/leluaitta-logo.png">
+	</header>
+	<nav>
+		<ul class="navlinks">
+			<li><a id="navlink1" href="index.html" class="navbutton active">Etusivulle</a></li>
+			<li><a id="navlink2" href="about.html" class="navbutton">Tietoa meistä</a></li>
+			<li><a id="navlink3" href="contact.html" class="navbutton">Ota yhteyttä</a></li>
+			<li><a id="navlink4" href="webstore.html" class="navbutton">Verkkokauppa</a></li>
+		</ul>
+	</nav>
+	<section class="main">
+		<h1>Ota yhteyttä</h1>
+		<div id="contactInfo">
+			<h2>Yhteystiedot</h2>
+			<p>Sähköposti: <span id="emailAddress">-</span></p>
+			<p>Puhelin: <span id="phoneNumber">-</span></p>
+		</div>
+		<div id="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250.5498050201834!2d25.468514410984337!3d65.01075230416079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468028fbb68a1597%3A0x42e1cdb5f5853e52!2sLeluaitta!5e0!3m2!1sfi!2sfi!4v1568712019098!5m2!1sfi!2sfi" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		</div>
+		<div id="contactForm">
+			<form>
+				<h3>Yhteydenottopyyntö</h3>
+				<input id="contactFormName" type="text" placeholder="Nimi"><br>
+				<input id="contactFormEmail" type="text" placeholder="Sähköpostiosoite"><br>
+				<input id="contactFormPhone" type="text" placeholder="Puhelinnumero"><br>
+				<textarea id="contactFormMessage" rows="10" placeholder="Viesti"></textarea><br>
+				<input type="submit"></button>
+			</form>
+		</div>
+	</section>
+	<footer>&copy; Niko Leppänoro 2019</footer>
+</body>
+</html>

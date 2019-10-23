@@ -1,0 +1,26 @@
+Etusivu
+- yritysesittely
+- tarjoukset(?)
+
+Tietoa meistä
+- lyhyt tuote- ja palveluesittely
+- myytävät tuotteet ja tuotemerkit
+- yhteistyökumppanit
+
+Ota yhteyttä
+- osoitetiedot
+- google maps
+- puhelinnumero
+- aukioloajat
+- uutiskirjeen tilaus
+- asiakaspalvelun puhelinnumero + sähköposti
+- palautelomake
+- yhteydenottolomake
+- sosiaaliset mediat
+
+Verkkokauppa
+- tuotehaku
+- tuotekategoriat
+- ostoskori
+- maksutavat
+- sisäänkirjautuminen / uuden tilin luonti

@@ -1,0 +1,46 @@
+#inputCheckForm {
+	display: inline-block;
+	width: 500px;
+	background-color: lightblue;
+	padding: 10px;
+}
+
+fieldset {
+	border: 1px dashed white;
+}
+
+input[type=text], input[type=submit], textarea, #info {
+	display: inline-block;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+input[type=text] {
+	width: 100%;
+}
+
+input[type=submit] {
+	padding: 10px;
+	border: 0;
+	background-color: royalblue;
+	color: white;
+}
+
+input[type=submit][disabled] {
+	background-color: blue;
+	color: grey;
+}
+
+input[type=submit].enabled:hover {
+	box-shadow: 0 0 10px white;
+}
+
+textarea {
+	width: 100%;
+	resize: none;
+	overflow-y: auto;
+}
+
+#info {
+	 
+}
+

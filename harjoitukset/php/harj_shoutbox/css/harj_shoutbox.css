@@ -1,0 +1,57 @@
+body {
+	background-image: url("https://cdn.pixabay.com/photo/2016/09/07/11/37/tropical-1651426_960_720.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.shoutbox {
+	background-color: orange;
+	background-image: linear-gradient(to bottom right, yellow, orange, darkorange);
+	box-shadow: 5px 5px 10px rgb(204, 122, 0);
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.title {
+	color: white;
+	text-shadow: 2px 2px 5px rgb(204, 122, 0);
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.message-history {
+	width: 100%;
+	height: 300px;
+	background-color: white;
+	background-image: linear-gradient(white, rgb(255, 204, 128));
+	overflow: auto;
+}
+
+.message-history > div > .username {
+	font-weight: 700;
+	color: blue;
+}
+
+.message-history > div > .timestamp {
+	font-weight: 700;
+}
+
+.msg-box {
+	resize: none;
+}
+
+.input, .msg-box, .send-button {
+	border: 0;
+	box-shadow: 2px 2px 5px rgb(204, 122, 0);
+}
+
+.send-button {
+	background-color: red;
+	color: white;
+}
+
+.send-button:hover {
+	background-color: rgb(255, 100, 100);
+	color: white;
+}
+
+
+

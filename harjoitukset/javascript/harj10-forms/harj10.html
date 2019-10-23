@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Harjoitus 10</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/harj10.css">
+</head>
+<body>
+	<form id="inputCheckForm" action="" method="get" onsubmit="return inputCheck();">
+		<fieldset>
+			<legend>Input checker</legend>
+			<span>Syötä jotain tekstiä ja paina Lähetä-nappia: </span>
+			<input id="textInput" type="text" oninput="submitBtnFunction();"><br>
+			<input id="submitBtn" type="submit" disabled><br>
+			<textarea id="textArea" rows="10" cols="50"></textarea>
+			<p id="info"></p>
+		</fieldset>
+	</form>
+</body>
+<script type="text/javascript" src="js/harj10.js"></script>
+</html>

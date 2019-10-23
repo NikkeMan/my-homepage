@@ -1,0 +1,22 @@
+table, tr, th, td {
+	border: 1px solid black;
+}
+
+th, td {
+	width: 100px;
+	height: 50px;
+	text-align: center;
+}
+
+th {
+	background-color: lightgreen;
+}
+
+
+tr.light {
+	background-color: lightgray;
+}
+
+tr.dark {
+	background-color: darkgray;
+}

@@ -1,0 +1,53 @@
+form {
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+#newAccountForm fieldset {
+	background-color: lightgreen;
+}
+
+fieldset {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	width: 400px;
+}
+
+#infoText, #infoText2 {
+	color: red;
+}
+
+#requiredInfo, #passwordInfo {
+	font-size: 12px;
+}
+
+#newAccountForm > fieldset > input {
+	height: 30px;
+	margin: 2px 0px 2px 0px;
+	padding-left: 5px;
+}
+
+#newAccountForm > fieldset > input[type=checkbox] {
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+#newAccountForm > fieldset > input[type=submit]{
+	width: 100px;
+	height: 50px;
+	background-color: rgb(230, 255, 230);
+	border: 0;
+	border-radius: 5px;
+	margin: 10px 10px 10px 0px;
+	padding: 0px 10px 0px 10px;
+}
+
+#newAccountForm > fieldset > input[type=submit]:hover {
+	background-color: white;
+	box-shadow: 2px 2px 5px black;
+}
+
+
+

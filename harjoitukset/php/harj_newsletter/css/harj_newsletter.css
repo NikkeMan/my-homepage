@@ -1,0 +1,24 @@
+.error {
+	color: red;
+}
+
+.success {
+	color: green;
+}
+
+.explanation {
+	font-size: 0.8rem;
+}
+
+.newsletter-form {
+	background-color: lightskyblue;
+	box-shadow: 5px 5px 5px deepskyblue;
+}
+
+.input, .btn {
+	box-shadow: 0px 0px 5px deepskyblue;
+}
+
+.table {
+	border-color: deepskyblue;
+}

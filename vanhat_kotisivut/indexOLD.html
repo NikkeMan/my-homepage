@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Index</title>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script src="js/index.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<nav>
+		<ul class="navbuttons">
+			<li class="navbutton">
+				<a href="frontpage.html" target="myFrame" onclick="changeActiveLink()" 
+				class="active">Etusivulle</a>
+			</li>
+			<li class="navbutton">
+				<a href="cv.html" target="myFrame" onclick="changeActiveLink()" 
+				class="navbutton">CV</a>
+			</li>
+			<li class="navbutton">
+				<a href="portfolio.html" target="myFrame" onclick="changeActiveLink()" 
+				class="navbutton">Portfolio</a>
+			</li>
+			<li class="navbutton">
+			<a>Harjoitustyöt</a>
+				<ul class="dropdown-list">				
+					<li class="dropdown-link">
+						<a href="harjoitukset/javascript/harj2/harj2.html" target="myFrame" 
+						onclick="changeActiveLink()">Laskin</a>
+					</li>
+					<li class="dropdown-link">
+						<a href="harjoitukset/javascript/harj3/harj3.html" target="myFrame" 
+						onclick="changeActiveLink()">Lämpömittari</a>
+					</li>
+					<li class="dropdown-link">
+						<a href="harjoitukset/javascript/harj4/harj4.html" target="myFrame" 
+						onclick="changeActiveLink()">Noppapeli</a>
+					</li>
+					<li class="dropdown-link">
+						<a href="harjoitukset/javascript/harj5/harj5.html" target="myFrame" 
+						onclick="changeActiveLink()">Hissi</a>
+					</li>
+					<li class="dropdown-link">
+						<a href="harjoitukset/javascript/harj2-forms-pizza/pizza.html" target="myFrame" 
+						onclick="changeActiveLink()">Pizza Online</a>
+					</li>
+					<li class="dropdown-link">
+						<a href="harjoitukset/leluaitta/index.html" target="_blank">Leluaitta (WIP)</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<section>
+		<iframe name="myFrame" src="frontpage.html"></iframe>
+	</section>
+	<footer>&copy; Niko Leppänoro 2019</footer>
+</body>
+</html>

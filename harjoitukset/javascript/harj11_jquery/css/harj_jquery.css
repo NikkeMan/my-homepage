@@ -1,0 +1,29 @@
+div {
+	padding: 10px;
+}
+
+#myDiv {
+	background-color: lightblue;
+}
+#myDiv2 {
+	background-color: lightgrey;
+	width: 300px;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid grey;
+}
+
+#liPrice {
+	background-color: darkgrey;
+	color: white;
+	border-width:
+}

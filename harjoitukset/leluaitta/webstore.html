@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Leluaitta - Verkkokauppa</title>
+<link rel = "icon" type = "image/png" href = "img/leluaitta-logo.png">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/webstore.css">
+<script src="js/index.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<img class="logo" alt="Leluaitta" src="img/leluaitta-logo.png">
+	</header>
+	<nav>
+		<ul class="navlinks">
+			<li><a id="navlink1" href="index.html" class="navbutton active">Etusivulle</a></li>
+			<li><a id="navlink2" href="about.html" class="navbutton">Tietoa meistä</a></li>
+			<li><a id="navlink3" href="contact.html" class="navbutton">Ota yhteyttä</a></li>
+			<li><a id="navlink4" href="webstore.html" class="navbutton">Verkkokauppa</a></li>
+		</ul>
+	</nav>
+	<aside class="sidebar">
+		<ul class="category-list">
+			<li class="dropdown-link">
+				<a href="#">Link 1 &rarr;</a>
+				<ul class="dropdown-menu">
+					<li class="dropdown-link-2">
+						<a href="#">Link 3</a>
+					</li>
+					<li class="dropdown-link-2" >
+						<a href="#">Link 4</a>
+					</li>
+					<li class="dropdown-link-2">
+						<a href="#">Link 5 &rarr;</a>
+						<ul class="dropdown-submenu">
+							<li class="dropdown-link-3"><a href="#">Link 6</a></li>
+							<li class="dropdown-link-3"><a href="#">Link 7</a></li>
+							<li class="dropdown-link-3"><a href="#">Link 8</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>		
+			<li><a class="dropdown-link" href="#">Link 2</a></li>
+		</ul>
+	</aside>
+	<section class="main">
+		<form class="searchbar">
+			<input type="search" placeholder="hae tuotetta...">
+			<button type="submit">Haku</button>
+		</form>
+		<div class="product-gallery">
+			<ul class="product-list">
+				<li>
+					<a href="#">
+						<div class="product">
+							<img class="product-img" src="img/tirppa.jpg" alt="kuva"></img>
+							<div>
+								<span class="product-text">Lintu</span>
+								<span class="product-price">1 €</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div class="product">
+							<div class="upper">
+								<img class="product-img" src="img/leluaitta-logo.png" alt="kuva"></img>
+							</div>
+							<div class="lower">
+								<span class="product-text">Leluaitta</span>
+								<span class="product-price">2 €</span>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<footer>&copy; Niko Leppänoro 2019</footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Harjoitus 3</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/harj3.css">
+</head>
+<body id="body">
+	<div id="container">
+		<h2>LÄMPÖMITTARI</h2>
+		<span>Syötä arvo väliltä -100 - +100:</span>
+		<input type="number" min="-100" max="100" id="myInput" oninput="changeTemp()">
+		<br>
+		<span>Tai käytä slideria:</span>
+		<input type="range" min="-100" max="100" value="0" id="myRange" oninput="changeTemp()">
+		<br>
+		<br>
+			<div id="thermometer">
+				<div id="liquid">
+					<span id="temp">0 C&deg;</span>
+				</div>
+			</div>
+	</div>
+</body>
+<script src="js/harj3.js"></script>
+</html>

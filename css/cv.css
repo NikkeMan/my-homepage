@@ -1,0 +1,42 @@
+.description {
+	width: 60%;
+}
+
+.edu-title, .edu-date, .work-title, .work-date, .lang-title, .it-title {
+	font-weight: 700;
+	width: 20%;
+}
+
+
+.profile-text {
+	text-align: center;
+	font-size: 1.2rem;
+	font-family: "Times New Roman";
+	font-style: italic;
+}
+
+.selfie > img{
+	max-width: 100%;
+	max-height: 150px;
+}
+
+@media (max-width: 576px) {
+    .personal-info {
+        text-align: center;
+    }
+	
+	.selfie {
+		text-align: center;
+	}
+	
+	.selfie > img {
+		max-height: 300px;
+	}
+
+}
+
+@media (min-width: 768px) {
+    .personal-info {
+        text-align: justify;
+    }
+}
